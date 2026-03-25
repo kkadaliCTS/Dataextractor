@@ -1,6 +1,6 @@
 # 🤖 AI Business Data Extractor
 
-AI-powered tool to extract business data (company name, phone, email, website, rating, reviews) from any city using Google Maps + Claude AI + Web Scraping.
+AI-powered tool to extract business data (company name, phone, email, website, rating, reviews) from any city using Google Maps + Claude AI + Web Scraping + Apify API key
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-Web_App-green.svg)
