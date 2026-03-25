@@ -6,7 +6,7 @@ cls
 echo.
 echo ============================================
 echo   AI Business Data Extractor
-echo   Google Places + Claude AI + Web Scraping
+echo   Google Places + Apify + Claude AI
 echo ============================================
 echo.
 
@@ -27,9 +27,9 @@ echo.
 
 REM Install libraries
 echo [2/3] Installing libraries...
-pip install flask requests beautifulsoup4
+pip install flask requests beautifulsoup4 apify-client
 if %errorlevel% neq 0 (
-    python -m pip install flask requests beautifulsoup4
+    python -m pip install flask requests beautifulsoup4 apify-client
 )
 echo.
 echo       Libraries installed!
